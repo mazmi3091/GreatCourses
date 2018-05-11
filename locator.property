@@ -1,0 +1,32 @@
+#Homepg
+typeMath = //input[@id='search']
+searchButton = .//*[@id='search_mini_form']/div/button
+
+#searchResultPage
+zeroToInf = //h2[contains(.,'Zero to Infinity: A History of Numbers')]
+
+#zeroToInfinity
+dvd = .//*[@id='media-format-radio']/div/label
+addToCart = //button[@title='Add to Cart']
+
+#preCheckoutPage
+proceedCheckout = //button[@title='Proceed To Checkout']
+
+#CheckoutPage
+email = //input[@id='login-email']
+noPass = //label[contains(@for,'no_have_pass')]
+continueButton = //button[@id='checkout-sigin']
+billingFirst = //input[@name='billing[firstname]']
+billingLast = //input[@name='billing[lastname]']
+billingStreet = //input[@id='billing:street1']
+billingCity = //input[@id='billing:city']
+billingRegion = //select[@name='billing[region_id]']
+billingZip = //input[@id='billing:postcode']
+newPass = //input[@title='Password']
+confirmPass = //input[@name='billing[confirm_password]']
+billingContinue = //button[@onclick='billing.save()']
+shippingContinue = //button[@onclick='shippingMethod.save()']
+ccNumber = .//*[@id='accountNumber']
+expMonth = //select[@name='expMonth']
+expYear = //select[@id='expYear']
+paymentContinue = //button[@onclick='payment.save()']
